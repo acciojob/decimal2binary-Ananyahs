@@ -1,6 +1,24 @@
-function threeSum(arr, target) {
+/*function threeSum(arr, target) {
 // write your code here
   
 }
 
-module.exports = threeSum;
+module.exports = threeSum;*/
+
+function decimalToBinary(n) {
+  let binary = '';
+  let quotient = n;
+
+  while (quotient !== 0) {
+    const remainder = quotient % 2;
+    binary = remainder + binary;
+    quotient = Math.floor(quotient / 2);
+  }
+
+  return binary;
+}
+    
+  
+ // return parseInt(binaryStr.split("").reverse().join(""))
+ 
+module.exports = decimalToBinary;

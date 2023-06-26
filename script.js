@@ -1,13 +1,13 @@
-// function threeSum(arr, target) {
+function threeSum(arr, target) {
 // write your code here
-  
-// }
+	
 
-// module.exports = threeSum;
+// to convert positive decimal to binary
+let binary = arr.toString( redix );
 
-function decimalToBinary(decimal) {
-  // Use toString() with base 2 to convert decimal to binary
-  const binary = decimal.toString(2);
+// to convert negative decimal to binary
 
   return binary;
 }
+
+module.exports = threeSum;
